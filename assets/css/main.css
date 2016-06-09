@@ -1,0 +1,388 @@
+
+
+::selection {
+    background: rgba(1, 70, 62, 0.92);
+    color: #f2f2f2;
+    text-shadow: none;
+}
+
+/*NAV*/
+.logo {
+  width: 55%;
+}
+header{
+	position: fixed;
+		z-index: 99;
+}
+nav {
+	padding-top: 2%;
+	font-size: 15.3px;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0; 
+}
+header{
+  width: 100%;
+}
+.menu_bar{
+padding: 1.5em 2em 0em 2em;
+}
+nav ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  padding: 10px 25px !important;
+}
+
+nav ul li{
+
+  display: inline-block;
+
+}
+li:first-child{
+  border-left: none;
+}
+.navbar{
+    min-height: 66px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+  
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-size: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #E7A400;
+}
+.navbar-default .navbar-brand:hover {
+	color: #014039;
+}
+.navbar-brand {
+  padding: 0;
+}
+/*BG-LAPTOP*/
+/*.hero {
+  background-image: url("../img/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  width: 100%;
+}*/
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.intro-text {
+    position: relative;
+    z-index: 9999;
+}
+.trans {
+	background-color: rgba(0,0,0,0.5);
+	
+}
+h1 {
+	font-size: 3.5em;
+	padding: 20% 0 2% 0;
+} 
+.trasn-p {
+	font-size: 1.2em;
+	padding: 0 14% 3%;
+}
+.btn-2 {
+	padding-bottom: 16.5%;
+  margin: 6%;
+}
+.bt-our {
+	background:#363C46;
+	color:#fff;
+	display:inline-block;
+	font-size:1.4em;
+	padding:13px 0;
+	text-align:center;
+	width:160px;
+	text-decoration: none !important;
+	margin-right: 2%;
+}
+.btn-2 a:hover {
+	color: #fff;
+}
+.bt-learn {
+	background-color: rgba(255,255,255,0.1);
+	border: 1.5px solid rgba(255,255,255,0.2);
+	color:#fff;
+	display:inline-block;
+	font-size:1.2em;
+	padding: 13px 15px;
+	text-align:center;
+	text-decoration:none !important;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.btn-2 a:hover { 
+	background: rgba(0, 0, 0, 0.4); 
+}
+
+/*SOBRE MI*/
+.me{
+    text-align: justify;
+}
+.items{
+    text-align: left !important;
+}
+.parent .bars{
+    height: 8px;
+    text-align: right;
+    width: 100px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 0;
+    float: right;
+}
+.button{
+    width: 85%;
+    margin: auto;
+    border: 2px solid #014039;
+    border-radius: 4px;
+    padding: 3%;
+    margin-top: 5%;
+}
+
+.progress-bar-success {
+    background-color: #014039;
+}
+
+.progress.bars {
+    width: 60%;
+}
+
+
+/*fotos*/
+.fotos .col-lg-4 {
+    padding: 0px; 
+}
+.fotos img {
+    width: 100%;
+}
+.butoon-w {
+    font-size: 10px;
+    color: #333;
+    text-align: center;
+    padding: 5px 12px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 1% 0;
+    text-decoration: none;
+}
+.git {
+    background-color: #333;
+    color: #fff; 
+    padding: 2%; 
+}
+.fotos h3 {
+    margin: 0 1%;
+}
+
+.ih-item.square.effect13 .info {
+  background: #333333;
+  background: rgba(231, 164, 0, 0.49);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+/*SECCCION 2*/
+.secc-2 {
+	padding: 5% 5% 3%;
+}
+.secc-2 i {
+	color: #009CA8;
+	font-size: 36px;
+}
+
+
+
+/*CONTACT*/
+.redes {
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.box-l {
+    background-color: #006699;
+    padding: 23% 0;
+    width: 100%;
+    height: 153px;
+    margin: 7px;
+
+}
+.box-t {
+    background-color: #00ACEE;
+    padding: 23% 0;
+    width: 100%;
+    height: 153px;
+    margin: 7px;
+}
+.box-g {
+    background-color: #D6492E;
+    padding: 10%;
+    width: 100%;
+    height: 100px;
+    margin: 7px;
+}
+.box-f {
+    background-color: #3B5998;
+    padding: 10%;
+    width: 100%;
+    height: 100px;
+    margin: 7px;
+}
+.box-git {
+    background-color: #000;
+    padding: 10%;
+    width: 100%;
+    height: 100px;
+    margin: 7px;
+}
+
+.icon-size{
+    font-size: 4em;
+    color: #fff;
+}
+
+.icon-size.fa.fa-github{
+    font-size: 4em;
+    color: #fff;
+}
+.p-contact{
+    margin-top: 10%;
+}
+
+.contactanos {   
+    background-image: url("../img/background/contactus.jpg");
+    background-size: cover;
+    color: white;  }
+.contacto {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2% 5% 0% 5%; }
+.contactanos h2 { 
+    font-size: 2.4em;
+    margin-bottom: 3%;  }
+.contactanos h3 { 
+    font-size: 1.7em;
+    padding: 3% 0%;
+    margin: 0%;  }
+.contactanos p { font-size: 1.2em; }
+.contactanos input {
+    width: 99%;
+    color: #979797;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 2%;
+    margin: 3% 0% 4% 0%;
+    display: block;
+    border: none;
+    background: rgba(255,255,255,0.1);   }
+.mensaje  { 
+    width: 99%;
+    height: 170px;
+    padding: 2%;
+    font-size: 1.2em;
+    border: none;
+    background: rgba(255,255,255,0.1);   }
+.contactanos .enviar { 
+    background: #2BBDBD;
+    color: white;
+    width: 120px;
+    border: none;
+    margin: 3% 0%;
+    padding: 15px;
+    display: block;
+    font-size: 1em;  
+}
+.about { padding-left: 6%; }
+.about p { 
+    margin: 4% 0% 5% 0%;
+    font-size: 1.1em;
+    line-height: 1.8;  }
+.about i { margin-right: 3%; }
+.follow  { 
+    color: #969696;
+    padding: 4% 20%;  } 
+.follow h2 { 
+    font-size: 2.4em;
+    padding-bottom: 2%;
+    color: #333;
+}
+.follow p { 
+    font-size: 1.2em; 
+    line-height: 1.5;
+    margin-bottom: 5%;   }
+.follow i { 
+    font-size: 100%;
+    margin: 1%;  
+    color: #2F3742;  }
+footer { 
+ background: #014039;
+ color: white;
+ padding: 1%;  }
+
+
+ /*SCROLL*/
+ ::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c9ac27;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #d8b027;
+}
+::-webkit-scrollbar-track {
+  background: #333333;
+  border: 0px none #ffffff;
+}
+::-webkit-scrollbar-track:hover {
+  background: #014039;
+}
+::-webkit-scrollbar-track:active {
+  background: #014039;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+/*AQUI COMIENZAN LOS MEDIAS QUERIES DE LA PAGINA*/
+@media screen and (min-width: 299px) and (max-width: 768px) {
+    
+nav ul li a{
+  padding: 10px 9px !important;
+}
+    /*MEDIA QUERIES DE SECC 4*/
+.secc-4 p {
+	text-align: justify;
+}
+
+
+

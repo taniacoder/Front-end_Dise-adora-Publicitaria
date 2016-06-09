@@ -1,0 +1,142 @@
+/* Font weight */
+strong { 
+	font-weight: 600; 
+}
+.f-600 {
+	font-weight: 600;
+}
+.f-400 {
+	font-weight: 400;
+}
+
+/* Paddings */
+.pd-0{
+	padding: 0;
+}
+.pd-5 {
+	padding: 5%;
+}
+.pd-10 {
+	padding: 10%;
+}
+.pr-0 {
+	padding-right: 0%;
+}
+.pl-0 {
+	padding-left: 0%;
+}
+
+
+.pt-0 {
+	padding-top: 0%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pt-10{
+	padding-top: 10%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pb-8 {
+	padding-bottom: 8%;
+}
+.pl-5{
+	padding-left: 5%;
+}
+.pr-5{
+	padding-right: 5%;
+}
+.mg-0{
+	margin: 0;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: #888;
+}
+
+.text-green{
+ 	color: #0dc0c0;
+}
+
+.active {
+	color: #0dc0c0;
+}
+
+.a-none-decoration{
+	text-decoration: none !important;;
+}
+.bg-withe {
+	background-color: #fff;
+}
+.bg-gray{
+	background-color: rgb(244, 244, 244);
+}
+.bg-img-block {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+/*COLORES*/
+
+.color-turquesa {
+	color: #0DC0C0;
+}
+.color-gris {
+	color: #98A0A8;
+}
+.color-gris1 {
+	color: #C9D1D6;
+}
+.color-gris2 {
+	color: #2D323A;
+}
+.color-gris3 {
+	color: #24282E;
+}
+.color-gris4 {
+	color: #384147;
+}
+.color-gris5 {
+	color: #32383F;
+}
+.color-gris0 {
+	color: #E8EDEF;
+}
+.color-turquesa2 {
+	color: #009CA8;
+}
+.color-gris01 {
+	color: #F4F4F4;
+}
+.color-gris6 {
+	color: #363C46;
+}
