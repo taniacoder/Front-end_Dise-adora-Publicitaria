@@ -12,7 +12,7 @@
 }
 header{
 	position: fixed;
-		z-index: 99;
+		z-index: 99999;
 }
 nav {
 	padding-top: 2%;
@@ -131,6 +131,9 @@ h1 {
 }
 
 /*SOBRE MI*/
+.foto {
+  background-image: url("../img/SAM_0255o.jpg");
+}
 .me{
     text-align: justify;
 }
@@ -266,6 +269,7 @@ h1 {
 }
 .p-contact{
     margin-top: 10%;
+    color: #014039;
 }
 
 .contactanos {   
@@ -273,11 +277,12 @@ h1 {
     background-size: cover;
     color: white;  }
 .contacto {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 2% 5% 0% 5%; }
+    padding: 3% 5% 5% 5%; 
+}
 .contactanos h2 { 
     font-size: 2.4em;
-    margin-bottom: 3%;  }
+    margin-bottom: 3%;
+    color: #014039;  }
 .contactanos h3 { 
     font-size: 1.7em;
     padding: 3% 0%;
