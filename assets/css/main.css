@@ -1,11 +1,13 @@
 
-
+html { overflow-x:hidden; }
 ::selection {
     background: rgba(1, 70, 62, 0.92);
     color: #f2f2f2;
     text-shadow: none;
 }
-
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 /*NAV*/
 .logo {
   width: 55%;
@@ -78,7 +80,13 @@ li:first-child{
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
+    /* bottom: 10px; */
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -10;
+    visibility: visible;
 }
 .intro-text {
     position: relative;
@@ -114,8 +122,8 @@ h1 {
 .btn-2 a:hover {
 	color: #fff;
 }
-.bt-learn {
-	background-color: rgba(255,255,255,0.1);
+.bt-cv {
+	background-color: rgba(6, 32, 23, 0.93);
 	border: 1.5px solid rgba(255,255,255,0.2);
 	color:#fff;
 	display:inline-block;
@@ -125,20 +133,41 @@ h1 {
 	text-decoration:none !important;
   text-transform: uppercase;
   font-weight: 400;
+  margin-bottom: 10px;
+}
+.bt-cont {
+  background-color: rgba(255,255,255,0.1);
+  border: 1.5px solid rgba(255,255,255,0.2);
+  color:#fff;
+  display:inline-block;
+  font-size:1.2em;
+  padding: 13px 15px;
+  text-align:center;
+  text-decoration:none !important;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 .btn-2 a:hover { 
 	background: rgba(0, 0, 0, 0.4); 
 }
+.btn-2 a:focus { 
+  color: #fff;
+}
+
 
 /*SOBRE MI*/
 .foto {
   background-image: url("../img/SAM_0255o.jpg");
 }
 .me{
-    text-align: justify;
+    text-align: center;
+    color: #014039;
+    line-height: 1.9;
 }
 .items{
-    text-align: left !important;
+    text-align: left;
+    margin-bottom: 9px;
+    color: #014039;
 }
 .parent .bars{
     height: 8px;
@@ -208,6 +237,7 @@ h1 {
 /*SECCCION 2*/
 .secc-2 {
 	padding: 5% 5% 3%;
+  background-color: #fff;
 }
 .secc-2 i {
 	color: #009CA8;
@@ -390,6 +420,9 @@ nav ul li a{
 .secc-4 p {
 	text-align: justify;
 }
-
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: rgba(0, 0, 0, 0.6);
+}
 
 
